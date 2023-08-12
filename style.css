@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1180px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.grid {
+    display: grid;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.navigation-toggle {
+    display: none;
+}
+
+.nav-section {
+    width: 100%;
+    height: 465px;
+    background: linear-gradient(to bottom right, #03161d, #486571);
+}
+
+.background-image {
+    width: 100%;
+    height: 465px;
+    background-image: url(./assets/asset\ 2.png);
+}
+
+.top-nav {
+    justify-content: space-between;
+
+}
+
+.top-nav-left img {
+    padding: 8px 15px;
+    width: 280px;
+}
+
+.top-nav-right ul {
+    margin-top: 17px;
+    margin-right: 62px;
+    font-size: 0.8rem;
+    gap: 19.5px;
+}
+
+.hover-link {
+    color: rgb(205, 198, 198);
+    transition: 0.2s ease-out;
+}
+
+.hover-link:hover {
+    cursor: pointer;
+    color: white;
+}
+
+.bottom-nav h1 {
+    color: white;
+    text-align: center;
+    padding-left: 21.5px;
+    padding-top: 105px;
+    padding-bottom: 20px;
+    font-size: 3.3rem;
+    font-weight: 200;
+    letter-spacing: 6px;
+}
+
+.main-search-box {
+    width: 690px;
+    height: 55px;
+    margin-inline: auto;
+    display: flex;
+
+}
+
+.search-box {
+    display: inline-block;
+    width: 550px;
+    height: 55px;
+    padding: 15px 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 1rem;
+}
+
+.search {
+    display: inline-block;
+    width: 140px;
+    height: 55px;
+    background-color: rgb(193, 12, 12);
+    color: rgb(205, 198, 198);
+    text-align: center;
+    padding-top: 14.5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search span {
+    padding-left: 10px;
+}
+
+.suscribe {
+    background-color: rgb(47, 46, 46);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 0.2px;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.suscribe hr {
+    background-color: white;
+    width: 235px;
+    margin-inline: auto;
+    margin-bottom: 8px;
+}
+
+.choose-heading {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.20rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: rgb(53, 48, 48);
+    padding-block: 40px 10px;
+}
+
+.choose-heading h2 hr {
+    background-color: rgb(250, 82, 21);
+    width: 65px;
+    height: 2.8px;
+    margin-inline: auto;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.choose {
+    margin-inline: 115px;
+    gap: 12px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 180px;
+    box-shadow: 0px 0px 40px rgb(225, 223, 223);
+    background-color: rgb(240, 238, 238);
+}
+
+.asset3 {
+    grid-row: 1/3;
+}
+
+.asset5 {
+    grid-column: 3/4;
+    grid-row: 1/3;
+}
+
+.asset7 {
+    grid-column: 2/3;
+    grid-row: 2/4;
+}
+
+.movetext {
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+.design {
+    bottom: 50%;
+}
+
+.imgall {
+    transition: 0.3s ease-in;
+}
+
+.imgall:hover {
+    background-color: rgba(70, 0, 0, 0.6);
+    transform: scale(1.2);
+
+}
+
+.asseti3 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/asset3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-color: #666;
+    background-blend-mode: overlay;
+    background-position: top;
+}
+
+.asseti4 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/asset4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #666;
+    background-blend-mode: overlay;
+    background-position-y: 40%;
+}
+
+.asseti5 {
+    width: 100%;
+    height: 100%;
+    background-image: url(./assets/asset5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #666;
+    background-blend-mode: overlay;
+    background-position: top;
+}
+
+.asseti6 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.collegepravesh.com/home-images/news-showcase.jpg);
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #666;
+    background-blend-mode: overlay;
+    background-position-y: 46%;
+}
+
+.asseti7 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.collegepravesh.com/home-images/exams-showcase.jpg);
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #555;
+    background-blend-mode: overlay;
+    background-position: top;
+}
+
+.asseti8 {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://img.collegepravesh.com/home-images/forum-showcase.jpg);
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #666;
+    background-blend-mode: overlay;
+    background-position-y: 40%;
+}
+
+.allchoose {
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    transition: transform 2s;
+    overflow: hidden;
+}
+
+
+
+.news-section-background {
+    background: rgb(244, 249, 250);
+    height: 750px;
+}
+
+.news-heading {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.20rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: rgb(53, 48, 48);
+    padding-block: 60px 10px;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.news-heading h2 hr {
+    background-color: rgb(250, 82, 21);
+    width: 65px;
+    height: 3.3px;
+    margin-inline: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.news {
+    margin-inline: 115px;
+    row-gap: 12px;
+    column-gap: 28px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 250px;
+}
+
+.allnewsback {
+    background-color: #f5f1f1;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    overflow: hidden;
+    box-shadow: 0px 0px 40px rgb(225, 223, 223);
+}
+
+.block3 {
+    grid-column: 1/3;
+
+}
+
+.plateall {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+
+.news h3 {
+    padding-inline: 18%;
+    text-align: center;
+}
+
+a {
+    color: black;
+}
+
+.newsbrief {
+    background-color: #122040;
+    color: white;
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.colleges-section-heading {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 1.20rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    color: rgb(53, 48, 48);
+    padding-block: 40px 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.colleges-section-heading h2 hr {
+    background-color: rgb(250, 82, 21);
+    width: 65px;
+    height: 3.3px;
+    margin-inline: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.left-arrows {
+    font-size: 1.5rem;
+    width: 5vw;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-arrows {
+    font-size: 1.5rem;
+    width: 5vw;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+#left-arrow-1 {
+    cursor: auto;
+}
+
+#right-arrow-6 {
+    cursor: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.college-slides {
+    width: 90vw;
+    justify-content: space-between;
+}
+
+.college-items {
+    width: auto;
+    border: 2px solid rgb(225, 223, 223);
+}
+
+.college-img4 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2018/08/IIT-Kharagpur-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img5 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2013/06/MNNIT-Allahabad-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img6 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2014/02/BIT-Mesra-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding-left: 20px;
+}
+
+.college-info {
+    width: 28vw;
+    height: 250px;
+
+}
+
+.collegeitem-container {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hover-link1 {
+    color: rgb(47, 46, 46);
+    font-size: 0.8rem;
+    transition: 0.2s ease-out;
+}
+
+.hover-link1:hover {
+    color: rgb(237, 40, 40);
+}
+
+.collegeitem-heading {
+    padding-left: 20px;
+    padding-top: 20px;
+    color: rgb(47, 46, 46);
+}
+
+.collegeitem-heading h4 hr {
+    background-color: rgb(250, 82, 21) !important;
+    width: 60px;
+    height: 2px;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+
+
+.college-img1 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2015/12/IISc-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.college-img2 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2018/08/IIT-Delhi-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img3 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2018/08/IIT-Madras-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img7 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2019/08/BITS-Pilani-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img8 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2014/04/NSIT-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-img9 {
+    width: 28vw;
+    height: 280px;
+    background: url(https://img.collegepravesh.com/2014/04/NIT-Karnataka-310x205.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.college-slide-1 {
+    position: absolute;
+}
+
+.college-slide-2 {
+    position: absolute;
+    left: -1000%;
+
+}
+
+.college-slide-3 {
+    position: absolute;
+    left: -1000%;
+}
+
+.relative-parent {
+    width: 100%;
+    height: 550px;
+    transition: 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-background-color {
+    background-color: #001b40;
+}
+
+.footer-container {
+    margin-top: 120px;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    height: 290px;
+
+}
+
+.links-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+}
+
+.hover-links {
+    color: rgb(175, 174, 174);
+    font-size: 0.8rem;
+    transition: 0.2s ease-out;
+}
+
+.hover-links:hover {
+    color: rgb(255, 255, 255);
+}
+
+.links-column h4 {
+    color: white;
+    padding-block-start: 55px;
+}
+
+.sub-footer {
+    flex-direction: column;
+    color: rgb(175, 174, 174);
+    height: 200px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+.sub-footer {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.social-media-links {
+    flex-direction: row;
+    column-gap: 20px;
+}
