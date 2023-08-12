@@ -1,0 +1,477 @@
+@media screen and (width>=1750px) {
+    .college-images {
+        height: 400px;
+    }
+
+    .footer-container {
+        margin-top: 220px;
+    }
+}
+
+@media screen and (width<=1300px) {
+    .newsbrief {
+        font-size: 0.5rem;
+    }
+}
+
+@media screen and (width<=991px) {
+    .newsbrief {
+        font-size: 0.429rem;
+    }
+
+    .allnewsback {
+        font-size: 0.8rem;
+    }
+
+    .top-nav-right ul {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .news {
+        column-gap: 8px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .navigation-toggle{
+        display: block;
+        position: relative;
+        right: 20px;
+        top: 10px;
+    }
+    .top-nav-right {
+        position: absolute;
+        background-color: rgb(235, 253, 253);
+        left: -100%;
+        top: 7%;
+        width: 100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+        
+    }
+
+    .top-nav-right.active {
+        left: 0;
+    }
+
+    .top-nav-right ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hover-link {
+        color: rgb(0, 0, 0);
+        transition: 0.2s ease-out;
+    }
+    
+    .hover-link:hover {
+        cursor: pointer;
+        color: rgb(216, 53, 53);
+    }
+    
+    .bottom-nav h1 {
+        color: white;
+        text-align: center;
+        padding-left: 21.5px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        font-size: 2rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+
+    .nav-section {
+        width: 100%;
+        height: 265px;
+        background: linear-gradient(to bottom right, #03161d, #486571);
+    }
+
+    .background-image {
+        width: 100%;
+        height: 265px;
+        background-image: url(./assets/asset\ 2.png);
+    }
+
+    .main-search-box {
+        width: 440px;
+        height: 45px;
+        margin-inline: auto;
+        padding-left: 15px;
+        display: flex;
+
+    }
+
+    .search-box {
+        display: inline-block;
+        width: 360px;
+        height: 45px;
+        padding: 15px 40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 1rem;
+    }
+
+    .search {
+        display: inline-block;
+        width: 80px;
+        height: 45px;
+        background-color: rgb(193, 12, 12);
+        color: rgb(205, 198, 198);
+        text-align: center;
+        font-size: 0.8rem;
+        padding-top: 11.5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .choose {
+        margin-inline: 25px;
+        gap: 8px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 180px;
+        box-shadow: 0px 0px 40px rgb(225, 223, 223);
+        background-color: rgb(240, 238, 238);
+    }
+
+    .newsbrief {
+        font-size: 0.400rem;
+    }
+
+    .allnewsback {
+        font-size: 0.7rem;
+    }
+
+    .news {
+        margin-inline: 25px;
+        row-gap: 8px;
+        column-gap: 18px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 250px;
+    }
+
+    .hover-links {
+        color: rgb(175, 174, 174);
+        font-size: 0.5rem;
+        transition: 0.2s ease-out;
+    }
+
+    .links-column h4 {
+        font-size: 0.7rem;
+        color: white;
+        padding-block-start: 55px;
+    }
+
+    .footer-container {
+        margin-top: 120px;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        height: 190px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .top-nav-left img {
+        padding: 4px 8px;
+        width: 200px;
+    }
+
+    .nav-section {
+        width: 100%;
+        height: 185px;
+        background: linear-gradient(to bottom right, #03161d, #486571);
+    }
+
+    .background-image {
+        width: 100%;
+        height: 185px;
+        background-image: url(./assets/asset\ 2.png);
+    }
+
+    .bottom-nav h1 {
+        color: white;
+        text-align: center;
+        padding-left: 11px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-size: 0.8rem;
+        font-weight: 100;
+        letter-spacing: 3px;
+    }
+
+    .main-search-box {
+        width: 210px;
+        height: 35px;
+        margin-inline: auto;
+        padding-left: 8px;
+        display: flex;
+
+    }
+
+    .search-box {
+        display: inline-block;
+        width: 160px;
+        height: 35px;
+        padding: 15px 40px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        font-size: 0.7rem;
+    }
+
+    .search {
+        display: inline-block;
+        width: 50px;
+        height: 35px;
+        background-color: rgb(193, 12, 12);
+        color: rgb(205, 198, 198);
+        text-align: center;
+        padding-top: 11.5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        font-size: 0.4rem;
+    }
+
+    .choose-heading {
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: rgb(53, 48, 48);
+        padding-block: 20px 5px;
+    }
+
+    .suscribe {
+        background-color: rgb(47, 46, 46);
+        color: white;
+        padding-top: 3px;
+        padding-bottom: 0.2px;
+        text-align: center;
+        letter-spacing: 0.1rem;
+        font-weight: 100;
+        font-size: 0.7rem;
+    }
+
+    .suscribe hr {
+        background-color: white;
+        width: 180px;
+        margin-inline: auto;
+        margin-bottom: 8px;
+    }
+
+    .choose {
+        margin-inline: 25px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 150px;
+        box-shadow: 0px 0px 40px rgb(225, 223, 223);
+        background-color: rgb(240, 238, 238);
+    }
+
+    .asset3 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .asset5 {
+        grid-column: initial;
+        grid-row: initial;
+    }
+
+    .asset7 {
+        grid-column: initial;
+        grid-row: initial;
+    }
+
+    .news-section-background {
+        background: rgb(244, 249, 250);
+        height: 1570px;
+    }
+
+    .news-heading {
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: rgb(53, 48, 48);
+        padding-block: 30px 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .news-heading h2 hr {
+        background-color: rgb(250, 82, 21);
+        width: 65px;
+        height: 3.3px;
+        margin-inline: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .news {
+        margin-inline: 25px;
+        row-gap: 8px;
+        column-gap: 12px;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+    }
+
+    .block3 {
+        grid-column: 1/2;
+    }
+
+    .colleges-section-heading {
+        font-family: sans-serif;
+        font-weight: lighter;
+        font-size: 0.7rem;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        color: rgb(53, 48, 48);
+        padding-block: 40px 10px;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+
+    .collegeitem-container {
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: column;
+        font-size: 0.6rem;
+    }
+
+    .left-arrows {
+        font-size: 0.8rem;
+        width: 5vw;
+        height: 1600px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-arrows {
+        font-size: 0.8rem;
+        width: 5vw;
+        height: 1600px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hover-link1 {
+        color: rgb(47, 46, 46);
+        font-size: 0.6rem;
+        transition: 0.2s ease-out;
+    }
+
+    .college-slides {
+        width: 90vw;
+        flex-direction: column;
+        row-gap: 10px;
+        justify-content: space-between;
+
+    }
+
+    .college-img4 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2018/08/IIT-Kharagpur-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img5 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2013/06/MNNIT-Allahabad-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img6 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2014/02/BIT-Mesra-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img1 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2015/12/IISc-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+
+    .college-img2 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2018/08/IIT-Delhi-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img3 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2018/08/IIT-Madras-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img7 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2019/08/BITS-Pilani-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img8 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2014/04/NSIT-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .college-img9 {
+        width: 90vw;
+        height: 280px;
+        background: url(https://img.collegepravesh.com/2014/04/NIT-Karnataka-310x205.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .relative-parent {
+        width: 100%;
+        height: 1600px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .relative-parent {
+        width: 100%;
+        height: 1600px;
+        transition: 0.5s ease-in-out;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-evenly;
+        height: 1100px;
+        padding-top: 30px;
+
+    }
+
+    .links-column {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+
+    }
+}
