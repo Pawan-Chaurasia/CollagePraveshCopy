@@ -35,6 +35,10 @@
 
 
 @media screen and (max-width: 767px) {
+
+    .top-nav-right ul{
+        margin-left: 5vw;
+    }
     
     .navigation-toggle{
         display: block;
