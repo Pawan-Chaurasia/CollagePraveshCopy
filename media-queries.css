@@ -37,7 +37,7 @@
 @media screen and (max-width: 767px) {
 
     .top-nav-right ul{
-        margin-left: 18vw;
+        margin-left: 15vw;
     }
     
     .navigation-toggle{
@@ -179,7 +179,7 @@
 
 @media screen and (max-width: 479px) {
     .top-nav-right ul{
-        margin-left: 18vw;
+        margin-left: 15vw;
     }
 
     .top-nav-left img {
