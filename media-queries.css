@@ -96,7 +96,7 @@
     .background-image {
         width: 100%;
         height: 265px;
-        background-image: url(asset\ 2.png);
+        background-image: url(./assets/asset\ 2.png);
     }
 
     .main-search-box {
@@ -129,10 +129,6 @@
         padding-top: 11.5px;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
-    }
-
-    .search span{
-        padding: 5px;
     }
 
     .choose {
@@ -181,10 +177,6 @@
 }
 
 @media screen and (max-width: 479px) {
-    
-    .top-nav-right ul{
-        margin: 0px;
-    }
 
     .top-nav-left img {
         padding: 4px 8px;
@@ -200,7 +192,7 @@
     .background-image {
         width: 100%;
         height: 185px;
-        background-image: url(asset\ 2.png);
+        background-image: url(./assets/asset\ 2.png);
     }
 
     .bottom-nav h1 {
@@ -244,10 +236,6 @@
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
         font-size: 0.4rem;
-    }
-
-    .search span{
-        padding: 2px;
     }
 
     .choose-heading {
@@ -339,6 +327,10 @@
         grid-column: 1/2;
     }
 
+
+
+
+
     .colleges-section-heading {
         font-family: sans-serif;
         font-weight: lighter;
@@ -359,19 +351,29 @@
     }
 
     .left-arrows {
-        font-size: 0.8rem;
-        width: 5vw;
-        height: 1600px;
-        justify-content: center;
-        align-items: center;
+        display: none;
     }
 
     .right-arrows {
-        font-size: 0.8rem;
-        width: 5vw;
-        height: 1600px;
-        justify-content: center;
-        align-items: center;
+        display: none;
+    }
+
+    .left-arrows-smDevice{
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        width: 10vw;
+        height: 550px;
+        align-content: center;
+    }
+
+    .right-arrows-smDevice{
+        display: block;
+        cursor: pointer;
+        font-size: 1.5rem;
+        width: 10vw;
+        height: 550px;
+        align-content: center;
     }
 
     .hover-link1 {
@@ -381,15 +383,14 @@
     }
 
     .college-slides {
-        width: 90vw;
-        flex-direction: column;
-        row-gap: 10px;
+        width: 80vw;
+        row-gap: 100px;
         justify-content: space-between;
-
+        overflow-x: hidden;
     }
 
     .college-img4 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2018/08/IIT-Kharagpur-310x205.jpg);
         background-size: cover;
@@ -397,7 +398,7 @@
     }
 
     .college-img5 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2013/06/MNNIT-Allahabad-310x205.jpg);
         background-size: cover;
@@ -405,7 +406,7 @@
     }
 
     .college-img6 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2014/02/BIT-Mesra-310x205.jpg);
         background-size: cover;
@@ -413,7 +414,7 @@
     }
 
     .college-img1 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2015/12/IISc-310x205.jpg);
         background-size: cover;
@@ -422,7 +423,7 @@
     }
 
     .college-img2 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2018/08/IIT-Delhi-310x205.jpg);
         background-size: cover;
@@ -430,7 +431,7 @@
     }
 
     .college-img3 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2018/08/IIT-Madras-310x205.jpg);
         background-size: cover;
@@ -438,7 +439,7 @@
     }
 
     .college-img7 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2019/08/BITS-Pilani-310x205.jpg);
         background-size: cover;
@@ -446,7 +447,7 @@
     }
 
     .college-img8 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2014/04/NSIT-310x205.jpg);
         background-size: cover;
@@ -454,7 +455,7 @@
     }
 
     .college-img9 {
-        width: 90vw;
+        width: 80vw;
         height: 280px;
         background: url(https://img.collegepravesh.com/2014/04/NIT-Karnataka-310x205.jpg);
         background-size: cover;
@@ -463,15 +464,12 @@
 
     .relative-parent {
         width: 100%;
-        height: 1600px;
         transition: 0.5s ease-in-out;
     }
 
-    .relative-parent {
-        width: 100%;
-        height: 1600px;
-        transition: 0.5s ease-in-out;
-    }
+
+    
+
 
     .footer-container {
         flex-direction: column;
